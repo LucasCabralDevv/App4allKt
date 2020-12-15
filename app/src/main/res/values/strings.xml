@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Go 4all</string>
+    <string name="main_timestamp_button">Troque a cor</string>
+    <string name="main_title_textView">Go 4all</string>
+</resources>
