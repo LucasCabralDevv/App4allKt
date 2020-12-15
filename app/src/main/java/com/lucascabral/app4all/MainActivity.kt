@@ -29,16 +29,66 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun setBackgroundColor(lastChar: String) {
 
         when (lastChar) {
-            "0" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.White))
-            "1" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Black))
-            "2" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Blue))
-            "3" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Green))
-            "4" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Pink))
-            "5" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Red))
-            "6" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Purple))
-            "7" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Yellow))
-            "8" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Grey))
-            "9" -> mainConstraintLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.Lilac))
+            "0" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.White
+                )
+            )
+            "1" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Black
+                )
+            )
+            "2" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Blue
+                )
+            )
+            "3" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Green
+                )
+            )
+            "4" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Pink
+                )
+            )
+            "5" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Red
+                )
+            )
+            "6" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Purple
+                )
+            )
+            "7" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Yellow
+                )
+            )
+            "8" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Grey
+                )
+            )
+            "9" -> mainConstraintLayout.setBackgroundColor(
+                ContextCompat.getColor(
+                    this,
+                    R.color.Lilac
+                )
+            )
         }
 
         if (lastChar == "1") {
