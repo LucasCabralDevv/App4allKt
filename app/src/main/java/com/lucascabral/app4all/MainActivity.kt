@@ -29,61 +29,61 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun setBackgroundColor(lastChar: String) {
 
         when (lastChar) {
-            "0" -> mainConstraintLayout.setBackgroundColor(
+            Colors.WHITE.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.White
                 )
             )
-            "1" -> mainConstraintLayout.setBackgroundColor(
+            Colors.BLACK.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Black
                 )
             )
-            "2" -> mainConstraintLayout.setBackgroundColor(
+            Colors.BLUE.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Blue
                 )
             )
-            "3" -> mainConstraintLayout.setBackgroundColor(
+            Colors.GREEN.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Green
                 )
             )
-            "4" -> mainConstraintLayout.setBackgroundColor(
+            Colors.PINK.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Pink
                 )
             )
-            "5" -> mainConstraintLayout.setBackgroundColor(
+            Colors.RED.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Red
                 )
             )
-            "6" -> mainConstraintLayout.setBackgroundColor(
+            Colors.PURPLE.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Purple
                 )
             )
-            "7" -> mainConstraintLayout.setBackgroundColor(
+            Colors.YELLOW.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Yellow
                 )
             )
-            "8" -> mainConstraintLayout.setBackgroundColor(
+            Colors.GREY.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Grey
                 )
             )
-            "9" -> mainConstraintLayout.setBackgroundColor(
+            Colors.LILAC.lastChar -> mainConstraintLayout.setBackgroundColor(
                 ContextCompat.getColor(
                     this,
                     R.color.Lilac
@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             )
         }
 
-        if (lastChar == "1") {
+        if (lastChar == Colors.BLACK.lastChar) {
             mainTitleTextView.setTextColor(ContextCompat.getColor(this, R.color.White))
         } else {
             mainTitleTextView.setTextColor(ContextCompat.getColor(this, R.color.Black))
